@@ -19,6 +19,7 @@ login_account_id = (By.ID, "com.yunmall.lc:id/logon_account_textview")
 login_passwd_id = (By.ID, "com.yunmall.lc:id/logon_password_textview")
 # 登录按钮
 login_btn_id = (By.ID, "com.yunmall.lc:id/logon_button")
+# 关闭登录也按钮
 login_close_btn_id = (By.ID, "com.yunmall.lc:id/ymtitlebar_left_btn_image")
 
 """个人中心页面"""

@@ -15,11 +15,9 @@ def get_driver(pac, act):
     # app的信息
     # desired_caps['appPackage'] = 'com.android.mms'
     # desired_caps['appActivity'] = '.ui.ConversationList'
-
     desired_caps['automationName'] = 'Uiautomator2'
     desired_caps['appPackage'] = pac
     desired_caps['appActivity'] = act
 
     # 声明我们的driver对象
-    return webdriver.Remote('http://192.168.45.21:8080/wd/hub', desired_caps)
-    # webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_caps)
+    return webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_caps)
